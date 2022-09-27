@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-align: center;
+}
+
+input{
+   margin-top: 10px;
+   padding: 7px 15px;
+   font-size: 14px;
+   font-weight: bold;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+button{
+   margin-top: 10px;
+   padding: 9px 25px;
+   margin-left: 10px;
+   font-size: 12px;
+   font-weigth: bold;
+   border: none;
+   box-shadow: 1px 1px 1.5px #000000;
+}
+h1{
+   color: goldenrod;
+   text-shadow: 1px 1px 1.5px #000000;
+}
+h3{
+   font-size: 23px;
+   font-weight: bold;
+   color: goldenrod;
+   text-shadow: 0.5px 0.5px 1px #000000;
+}
+
+
+#name-el:focus {
+   background-color: #e6f9ff;
+   outline-color: #99ffff;
+}
+#name-el1:focus {
+   background-color: #e6f9ff;
+   outline-color: #99ffff;
+}
+#amount-el:focus {
+   background-color:  #e6ffe6;
+   outline-color: #00ff00;
+
+}
+#amount-el1:focus {
+   background-color: #e6ffe6;
+   outline-color: #00ff00;
+}
+
+#save-el, #save-el1{
+   background-color: green;
+   border-radius: 3px;
+   color: white;
+}
+
+#dlt-el, #dlt-el1 {
+   background-color: red;
+   border-radius: 3px;
+   color: white;
+}
+
+.listdesign{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.listdesign1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#list-el{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 0px;
+}
+#list-elel{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 0px;
+}
+#list-el1{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 40px;
+   
+}
+#list-elel1{
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 40px;
+   
+}
+
+li{
+   list-style: none;
+   margin-bottom: 5px;
+}
+#list-el li{
+   list-style-type: decimal;
+   border-bottom: 1px solid grey;	
+   padding-bottom: 3px;
+}
+#list-elel li{
+   list-style-type: decimal;
+   border-bottom: 1px solid grey;	
+   padding-bottom: 3px;
+}
+#list-el1 li{
+   padding-bottom: 3px;
+   border-bottom: 1px solid grey;
+}
+#list-elel1 li{
+   padding-bottom: 3px;
+   border-bottom: 1px solid grey;
+}
+#gotsum-el{
+   margin-bottom: 40px;
+}
+#lendsum-el{
+   margin-bottom: 40px;
+}
+h3{
+   margin-top: 20px;
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+
+#totalsum-el {
+   margin-top: 7px;
+   margin-bottom: 40px;
+   border-radius: 3px;
+   border: none;
+   box-shadow: 1px 1px 1.5px #000000;
+}
+#pgh{ 
+   font-size: 18px;
+}
