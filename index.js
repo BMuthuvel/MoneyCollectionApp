@@ -71,8 +71,6 @@ if(getItemFromTheList){
 
 const getItemFromTheList1 = JSON.parse(localStorage.getItem("myAmountList"));
 
-
-
 if(getItemFromTheList1){
    let numberArray = getItemFromTheList1.map(Number);
    myAmountList = numberArray;
@@ -102,7 +100,6 @@ function add(z) {
    let sum = 0;
 for( let i = 0; i < z.length; i++) {
    sum += z[i];
-   console.log(typeof sum);
 }
  
 lendsumEl.textContent = "Total: " + sum;
