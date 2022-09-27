@@ -37,19 +37,22 @@ h3{
 #name-el:focus {
    background-color: #e6f9ff;
    outline-color: #99ffff;
+   border-radius: 10px;
 }
 #name-el1:focus {
    background-color: #e6f9ff;
    outline-color: #99ffff;
+   border-radius: 10px;
 }
 #amount-el:focus {
    background-color:  #e6ffe6;
    outline-color: #00ff00;
-
+   border-radius: 10px;
 }
 #amount-el1:focus {
    background-color: #e6ffe6;
    outline-color: #00ff00;
+   border-radius: 10px;
 }
 
 #save-el, #save-el1{
